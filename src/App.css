@@ -1,38 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+    background-color: #C04C4B;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title h1 {
+    margin-top: 4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title input {
+    margin-top: 1rem;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.title button {
+    margin-top: 1rem;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: #287fe2;
+    color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title button:hover {
+    cursor: pointer;
+    background-color: #0469D9;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    margin: auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.card img {
+    height: 200px;
+    padding: 1rem 0;
+}
+
+.card span {
+    font-weight: bolder;
+}
+.card p {
+    padding: .3rem 0;
+}
+
+.bug {
+    background-color: #CAD479;
+}
+
+.dark {
+    background-color: #A99A91;
+}
+
+.dragon {
+    background-color: #A987FA;
+}
+
+.electric {
+    background-color: #FAE282;
+}
+
+.fairy {
+    background-color: #F4C1CD;
+}
+
+.fighting {
+    background-color: #D8827D;
+}
+
+.fire {
+    background-color: #F6B382;
+}
+
+.flying {
+    background-color: #CABCF6;
+}
+
+.ghost {
+    background-color: #A99AC1;
+}
+
+.grass {
+    background-color: #AEDE96;
+}
+
+.ground {
+    background-color: #ECD9A4;
+}
+
+.ice {
+    background-color: #C1E7E7;
+}
+
+.normal {
+    background-color: #DBDAC7;
+}
+
+.poison {
+    background-color: #C68CC6;
+}
+
+.psychic {
+    background-color: #FA9AB7;
+}
+
+.rock {
+    background-color: #D4C687;
+}
+
+.steel {
+    background-color: #D4D4E2;
+}
+
+.water {
+    background-color: #A4BCF6;
+}
+
+.legend {
+    background-color: #A4C6BC;
 }
